@@ -81,15 +81,7 @@ section {
 .about-div{
     background-color: chartreuse;
 }
-.info-div{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.academic-div{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
 
-}
 .skill-div{
     background-color: darkgoldenrod;
 }
