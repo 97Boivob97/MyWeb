@@ -1,0 +1,126 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-theme {
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+/* Header styles */
+.head-div {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.theme-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: violet;
+    color: black;
+    cursor: pointer;
+}
+
+.theme-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Navigation styles */
+.nav-div {
+    display: flex;
+    justify-content: space-around;
+    background-color: violet;
+    padding: 1rem;
+}
+
+.nav-div a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav-div a:hover, .nav-div a.active {
+    color: blue;
+    text-decoration: underline;
+}
+.home-div{
+    background-color: yellow;
+}
+.image-div{
+    text-align: center;
+}
+img{
+    height: 200px;
+    width:200px;
+}
+
+/* Section styles */
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+.about-div{
+    background-color: chartreuse;
+}
+.info-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.academic-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.skill-div{
+    background-color: darkgoldenrod;
+}
+.tech-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.web-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* Contact section */
+.contact-div {
+    background-color: aqua;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-div a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+
+.contact-div a:hover {
+    background-color: blue;
+}
